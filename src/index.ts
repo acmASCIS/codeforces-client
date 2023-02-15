@@ -13,9 +13,19 @@ const contestId:string = process.env.CONTEST_ID as string;
 // Run Your functions Here
 //#### UNCOMMENT TO START ####
 
-//GetAllHandles(key,secret,contestId);
+// GetAllHandles(key,secret,contestId);
 // GetAllProblems(key,secret,contestId).then(data=>{
 //     console.log(data);
 // });
 
+const Main =async () => {
+     await GetAllProblems(key, secret, contestId)
+
+    
+}
+Main();
+
+
+
+// Main();
 export default CodeforcesClient;
