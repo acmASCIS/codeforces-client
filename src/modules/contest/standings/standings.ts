@@ -6,9 +6,9 @@ type ContestStandingsParams = {
   contestId: string;
   from?: string;
   count?: number;
-  handles?: Array<string>;
+  handles?: string;
   room?:string;
-  showUnofficial:boolean
+  showUnofficial?:boolean
 };
 
 export const standings = (client: ICodeforcesClient) => async (params: ContestStandingsParams) => {
