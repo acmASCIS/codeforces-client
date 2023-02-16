@@ -1,5 +1,5 @@
 
-  enum ProblemResultType{PRELIMINARY='PRELIMINARY', FINAL=' FINAL'}
+  enum ProblemResultType{PRELIMINARY='PRELIMINARY', FINAL='FINAL'}
   export interface ProblemResult {
     points: number
     penalty: number
