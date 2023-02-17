@@ -1,9 +1,12 @@
 {
-  "name": "codeforces-client",
+  "name": "@acmascis/codeforces-client",
   "version": "0.0.1",
   "description": "Codeforces API Wrapper",
   "main": "build/index.js",
   "types": "build/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "build": "tsc",
     "test": "jest",
@@ -11,17 +14,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/khaled-hamam/codeforces-client.git"
+    "url": "git+https://github.com/acmascis/codeforces-client.git"
   },
   "keywords": [
     "codeforces"
   ],
-  "author": "Khaled Hamam (khaled.hamam@outlook.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/khaled-hamam/codeforces-client/issues"
+    "url": "https://github.com/acmascis/codeforces-client/issues"
   },
-  "homepage": "https://github.com/khaled-hamam/codeforces-client#readme",
+  "homepage": "https://github.com/acmascis/codeforces-client#readme",
   "devDependencies": {
     "@types/crypto-js": "^3.1.43",
     "@types/jest": "^24.0.22",
