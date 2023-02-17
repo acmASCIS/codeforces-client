@@ -1,5 +1,5 @@
 {
-  "name": "@acmascis/codeforces-client",
+  "name": "@acm-ascis/codeforces-client",
   "version": "0.0.3",
   "description": "Codeforces API Wrapper",
   "main": "build/index.js",
